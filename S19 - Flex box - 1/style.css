@@ -1,0 +1,258 @@
+#heading h1 {
+  background-color: #ffe9ec;
+  color: #4a4a4a;
+  font-size: 2.2rem;
+  border: 4px ridge #ff6f61;
+  border-radius: 15px;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+#heading {
+  text-align: center;
+}
+
+.grid {
+  /* margin: 0;
+  padding: 0; */
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  display: grid;
+  overflow-x: hidden;
+  justify-content: space-between;
+}
+
+.flex-container1 {
+  width: 470px;
+  height: 450px;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: row;
+  margin: 11px;
+  box-sizing: border-box;
+}
+
+.flex-container1 > nav {
+  width: 80px;
+  height: 80px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container2 {
+  flex-direction: row-reverse;
+}
+
+.flex-container3 {
+  flex-direction: column;
+}
+
+.flex-container4 {
+  flex-direction: column-reverse;
+}
+
+.flex-container5 {
+  flex-wrap: wrap;
+}
+
+.flex-container6 {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-container7 {
+  flex-wrap: nowrap;
+}
+
+.flex-container8 {
+  justify-content: start;
+  align-items: start;
+}
+
+.flex-container8 > nav {
+  margin: 0px;
+  border: 5px dashed tomato;
+}
+
+.flex-container9 {
+  justify-content: center;
+  align-items: start;
+}
+
+.flex-container10 {
+  justify-content: end;
+  align-items: start;
+}
+
+.flex-container11 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container12 {
+  justify-content: end;
+  align-items: center;
+}
+
+.flex-container13 {
+  justify-content: end;
+  align-items: end;
+}
+
+.flex-container14 {
+  justify-content: start;
+  align-items: end;
+}
+
+.flex-container15 {
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-container16 {
+  justify-content: center;
+  align-items: end;
+}
+
+.flex-container17 {
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: start;
+}
+
+.flex-container18 {
+  justify-content: center;
+  align-items: start;
+}
+
+.flex-container19 {
+  justify-content: start;
+  align-items: start;
+}
+
+.flex-container20 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container21 {
+  justify-content: end;
+  align-items: center;
+}
+
+.flex-container22 {
+  justify-content: end;
+  align-items: end;
+}
+
+.flex-container23 {
+  justify-content: center;
+  align-items: end;
+}
+
+.flex-container24 {
+  justify-content: start;
+  align-items: end;
+}
+
+.flex-container25 {
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-container26 {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.flex-container27 {
+  justify-content: center;
+  align-items: start;
+}
+
+.flex-container28 {
+  justify-content: end;
+  align-items: start;
+}
+
+.flex-container29 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container30 {
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-container31 {
+  justify-content: start;
+  align-items: end;
+}
+
+.flex-container32 {
+  justify-content: center;
+  align-items: end;
+}
+
+.flex-container33 {
+  justify-content: end;
+  align-items: end;
+}
+
+.flex-container34 {
+  justify-content: end;
+  align-items: center;
+}
+
+.flex-container35 {
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: start;
+}
+
+.flex-container36 {
+  justify-content: center;
+  align-items: start;
+}
+
+.flex-container37 {
+  justify-content: start;
+  align-items: start;
+}
+
+.flex-container38 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container39 {
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-container40 {
+  justify-content: start;
+  align-items: end;
+}
+
+.flex-container41 {
+  justify-content: center;
+  align-items: end;
+}
+
+.flex-container42 {
+  justify-content: end;
+  align-items: end;
+}
+
+.flex-container43 {
+  justify-content: end;
+  align-items: center;
+}
